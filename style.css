@@ -1,0 +1,14 @@
+/*
+Theme Name: WP Ion
+Theme URI: https://github.com/renanddlima95/wp-ion
+Author: Renan Delgado de Lima
+Author URI: https://renandev.com.br
+Description: WP Ion é um template enxuto, focado em performance e na falta de necessidade da utilização de editores pesados como o elementor e o beaver builder. A proposta deste tema é que o desenvolvedor que estará criando o site, elabore as páginas estáticas através de código, somente irá utilizar o Guttemberg para a geração de posts, ou páginas sem mutios efeitos visuais, apenas textos e imagens. Essa aborgaem traz um ganho em processamento, dado que muitos editores acabam carregando códigos, muitas das vezes, em duplicidade ou, até mesmo, código sem necessidade.
+Requires at least: 6.4
+Tested up to: 6.6
+Requires PHP: 7.2
+Version: 1.0.0
+License: Creative Commons Attribution Non Commercial 4.0 International
+License URI: https://creativecommons.org/licenses/by-nc/4.0/legalcode
+Text Domain: wp-ion
+*/
