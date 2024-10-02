@@ -32,6 +32,8 @@
             wp_ion_request_snippet( 'banner', 'frontpage' );
         elseif( is_home() ):
             wp_ion_request_snippet( 'banner', 'blog' );
+        elseif( is_page() ):
+            wp_ion_request_snippet( 'banner', 'page' );
         elseif( is_search() ):
             wp_ion_request_snippet( 'banner', 'search' );
         elseif( is_404() ):

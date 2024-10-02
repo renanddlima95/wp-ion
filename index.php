@@ -29,4 +29,4 @@ elseif( is_singular() ):
 endif;
 
 // Request do rodapé padrão
-wp_ion_request_part( 'header', 'default' );
+wp_ion_request_part( 'footer', 'default' );

@@ -15,4 +15,7 @@ require_once get_template_directory() . '/inc/requests/request-parts.php';
 require_once get_template_directory() . '/inc/requests/request-snippets.php';
 
 // Chamada do arquivo de requests para snippets
-require_once get_template_directory() . '/inc/requests/wp-ion-menus.php';
+require_once get_template_directory() . '/inc/hooks/wp-ion-menus.php';
+
+// Chamada do arquivo de suportes do tema
+require_once get_template_directory() . '/inc/hooks/theme-supports.php';
