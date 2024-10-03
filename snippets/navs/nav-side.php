@@ -12,7 +12,10 @@
     if( has_nav_menu( 'side' ) ):
         wp_nav_menu(
             array(
-                'theme_location' => 'side'
+                'theme_location' => 'side',
+                'menu_class'     => '',
+                'menu_id'        => '',
+                'container'      => false
             )
         );
     endif;

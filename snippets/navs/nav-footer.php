@@ -13,7 +13,10 @@
         if( has_nav_menu() ):
             wp_nav_menu(
                 array(
-                    'theme_location' => 'first'
+                    'theme_location' => 'first',
+                    'menu_class'     => '',
+                    'menu_id'        => '',
+                    'container'      => false
                 )
             );
         endif;
@@ -24,7 +27,10 @@
         if( has_nav_menu() ):
             wp_nav_menu(
                 array(
-                    'theme_location' => 'second'
+                    'theme_location' => 'second',
+                    'menu_class'     => '',
+                    'menu_id'        => '',
+                    'container'      => false
                 )
             );
         endif;
@@ -35,7 +41,10 @@
         if( has_nav_menu() ):
             wp_nav_menu(
                 array(
-                    'theme_location' => 'third'
+                    'theme_location' => 'third',
+                    'menu_class'     => '',
+                    'menu_id'        => '',
+                    'container'      => false
                 )
             );
         endif;
