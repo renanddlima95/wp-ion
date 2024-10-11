@@ -1,0 +1,39 @@
+/*
+Estilos para rodapé
+
+Todos os estilos para o rodapé devem ser escritos aqui
+*/
+.bg-footer{
+    background: linear-gradient(210deg, #1F034D, #620080);
+}
+
+.footer-brand{
+    font-size: 1.7rem;
+}
+
+.nf-title{
+    font-size: 1.3rem;
+    font-weight: 700;
+}
+
+.nav-footer .nav-item .nav-link{
+    padding: .2rem .2rem !important;
+    color: #fff !important;
+    transition: .3s;
+}
+
+.nav-footer .nav-item .nav-link:hover{
+    color: #ffe5fec2 !important;
+}
+
+.menu-social .nav-item .nav-link{
+    padding: 0 !important;
+    margin: .4rem !important;
+    font-size: 1.4rem;
+    color: #fff !important;
+    transition: .3s;
+}
+
+.menu-social .nav-item .nav-link:hover{
+    color: #ffe5fec2 !important;
+}

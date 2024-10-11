@@ -1,0 +1,183 @@
+/*
+Estilos para contents
+
+Para todas as páginas
+*/
+
+.pop-services{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .2) !important;
+    text-decoration: none !important;
+    transition: .3s;
+}
+
+.pop-services:hover{
+    background-color: #620080;
+    color: #fff !important;
+}
+
+.ion-card-icon{
+    font-size: 2rem;
+}
+
+.pop-services .card-body .card-title{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.card-cta .card-body .card-title{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.ion-btn-cta{
+    color: #fff !important;
+    border: 2px solid #fff;
+    transition: .3s;
+}
+
+.ion-btn-cta:hover{
+    color: #ffe5fec2 !important;
+    border-color: #ffe5fec2 !important;
+}
+
+.fpage-content{
+    animation: fadein 5s;
+    -moz-animation: fadein 5s;
+    -webkit-animation: fadein 5s;
+    -o-animation: fadein 5s;
+}
+
+/*
+Animação FadeIn
+*/
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/*
+Seção do card Post
+*/
+.card-post{
+    text-decoration: none !important;
+    transition: transform.5s;
+}
+
+.card-post:hover{
+    transform: scale(1.1);
+}
+
+.card-post-title{
+    font-weight: 700;
+}
+
+/*
+Seção de estilo Navbar Side
+*/
+.side-title{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.ion-nav-side .nav-item .nav-link{
+    padding: .2rem .2rem !important;
+    color: #000;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.ion-nav-side .nav-item .nav-link:hover{
+    color: #620080;
+}
+
+/*
+Seção de estilo do formulário de busca
+*/
+.form-search{
+    border: .2rem solid #620080 !important;
+}
+.form-search .form-control{
+    border: none !important;
+}
+
+.form-search .form-control:focus{
+    box-shadow: none !important;
+}
+
+.btn-ion-search{
+    background-color: #620080;
+    color: #fff;
+    border: none !important;
+}
+
+/*
+Seção de estilo da página de contato
+*/
+.contact-title{
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+
+.form-contact .form-control:focus{
+    box-shadow: none !important;
+}
+
+.btn-contact{
+    background-color: #fff;
+    border: .1rem solid #fff;
+    color: #620080;
+    font-weight: 700;
+    transition: transform .5s;
+}
+
+.btn-contact:hover{
+    transform: scale(1.1);
+}
+
+/*
+Seção de estilo para política de privacidade
+*/
+.privacy-title{
+    font-size: 1.6rem;
+    font-weight: 700;
+}
+
+.privacy-list .privacy-list{
+    text-decoration: none;
+    padding-left: .3rem;
+}
+
+/*
+Seção de estilos para página de serviços
+*/
+.services-ion-icon{
+    font-size: 4rem;
+}
