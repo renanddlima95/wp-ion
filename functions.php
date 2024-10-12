@@ -22,3 +22,6 @@ require_once get_template_directory() . '/inc/hooks/theme-supports.php';
 
 // Chamada do arquivo de estilos e scripts
 require_once get_template_directory() . '/inc/hooks/ion-scripts.php';
+
+// Chamada do arquivo de lista de comentários
+require_once get_template_directory() . '/inc/hooks/ion-comments.php';

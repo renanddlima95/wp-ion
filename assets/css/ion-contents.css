@@ -181,3 +181,43 @@ Seção de estilos para página de serviços
 .services-ion-icon{
     font-size: 4rem;
 }
+
+/*
+Seção de estilo para lista e formulário de comentários
+*/
+.comment-author{
+    font-weight: 700;
+}
+
+.comment-reply-link{
+    text-decoration: none !important;
+}
+
+.reply-box .link-author a{
+    text-decoration: none !important;
+    color: #212529 !important;
+}
+
+#cancel-comment-reply-link{
+    text-decoration: none !important;
+    color: #dc3545 !important;
+}
+
+.btn-ion-comment{
+    background-color: #620080;
+    border: none !important;
+    color: #fff;
+    transition: transform .3s;
+}
+
+.btn-ion-comment:hover{
+    transform: scale(1.1);
+}
+
+.comment-form .form-group .form-control:focus{
+    box-shadow: none !important;
+}
+
+.comment-form .form-check .form-check-input:focus{
+    box-shadow: none !important;
+}

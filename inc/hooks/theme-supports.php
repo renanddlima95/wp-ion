@@ -94,3 +94,13 @@ function custom_excerpt_length( $length ){
 }
 
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+/**
+ * Remove o campo url do formulário de comentários
+ */
+function ion_remove_website_field( $fields ) {
+	unset( $fields['url'] );
+	return $fields;
+}
+
+add_filter( 'comment_form_default_fields', 'ion_remove_website_field' );

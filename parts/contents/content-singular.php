@@ -31,12 +31,16 @@
             endif;
 
             /**
-             * Request da seção de cometários
+             * Request da seção de comentários
              */
             if( comments_open() && get_comments_number() ):
-                comment_form();
+
+               comments_template();
+
             else:
-                echo '<p class="text-danger">Comentários Fechados</p>';
+
+               echo '<p class="text-danger">Comentários Fechados</p>';
+
             endif;
             ?>
         </main>
