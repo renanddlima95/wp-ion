@@ -105,11 +105,12 @@ Seção de estilo Navbar Side
 .side-title{
     font-size: 1.2rem;
     font-weight: 700;
+    color: #620080;
 }
 
 .ion-nav-side .nav-item .nav-link{
     padding: .2rem .2rem !important;
-    color: #000;
+    color: #353535;
     font-weight: 600;
     transition: .3s;
 }
@@ -144,6 +145,7 @@ Seção de estilo da página de contato
 .contact-title{
     font-size: 1.9rem;
     font-weight: 700;
+    color: #620080;
 }
 
 .form-contact .form-control:focus{
@@ -182,6 +184,36 @@ Seção de estilos para página de serviços
     font-size: 4rem;
 }
 
+/*
+Seção de estilos para a página sites comerciais
+*/
+.comercial-title{
+    font-size: 1.4rem !important;
+    font-weight: 800;
+    color: #620080 !important;
+}
+
+.img-info-text a{
+    font-size: .8rem !important;
+    text-decoration: none !important;
+    color: #575757 !important;
+    transition: color .3s;
+}
+
+.img-info-text a:hover{
+    color: #202020 !important;
+}
+
+.contact-subtitle{
+    font-size: 1.4rem;
+    font-weight: 800;
+}
+
+.comercial-info-text{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #222222;
+}
 /*
 Seção de estilo para lista e formulário de comentários
 */

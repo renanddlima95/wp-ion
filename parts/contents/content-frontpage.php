@@ -10,7 +10,7 @@
 <main class="py-5">
     <div class="container fpage-content py-5">
         <div class="row text-center py-4">
-            <h2 class="sec-title">
+            <h2 class="contact-title">
                 Tenha ainda mais sucesso na conversão de vendas da sua empresa
             </h2>
             <p class="sec-text pb-3">
@@ -77,7 +77,7 @@
         </div>
     </div>
     <div class="container py-5">
-        <h2 class="recent-title text-center py-5">Confira alguns artigos que preparamos para você</h2>
+        <h2 class="contact-title text-center py-5">Confira alguns artigos que preparamos para você</h2>
         <?php 
         /**
          * Exibe posts recentes
